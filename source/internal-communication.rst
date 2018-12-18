@@ -90,7 +90,7 @@ Sending HTTP requests
 +++++++++++++++++++++
 
 In order to send requests via HTTP, a service must create an access token,
-described here. There is no further considerations beoynd following the API
+described here. There are no further considerations beyond following the API
 description associated to each service. This can be seen in figure
 :numref:`initial_authentication`. Note that all interactions depicted here are
 abstractions of the actual ones.
@@ -114,7 +114,7 @@ This is a test
    deactivate Kong
 
 In this figure, a client retrieves an access token for user `admin` whose
-password is `p4ssw0rd`. After that, a user can send a request to HTTP APIs
+password is `p4ssw0rD`. After that, a user can send a request to HTTP APIs
 using it. This is shown in :numref:`sending_requests`. Note: the actual authorization
 mechanism is detailed in `Auth + API gateway (Kong)`_.
 
